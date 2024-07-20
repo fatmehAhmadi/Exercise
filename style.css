@@ -1,0 +1,250 @@
+.my-button{
+  background-color: #333a4d;
+  border-color: #333a4d;
+}
+.my-button:hover{
+  background-color: #232937;
+  border-color: #232937;
+}
+h5 {
+  color: brown;
+}
+
+/* table--------------------> */
+.table {
+  max-width: 700px;
+  display: block;
+  margin: auto;
+}
+.wrap-text {
+  white-space: normal;
+  max-width: 200px;
+  word-wrap: break-word;
+}
+/* start search table */
+#myInput {
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+}
+
+#myTable th,
+#myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
+/* end search table */
+#myInput {
+  border: none;
+  margin: 0;
+  outline: none;
+}
+.search-input {
+  padding: 1px;
+  padding-left: 20px;
+  border: 1px solid;
+  outline: auto;
+  margin: 20px auto;
+}
+.search-input:focus {
+  outline: 2px solid blue; /* Apply the outline when the div is focused */
+}
+
+.disabled-input {
+  border: 1px solid;
+  cursor: not-allowed;
+  background-color: rgb(236, 236, 236);
+  border-radius: 4px;
+  width: 200px;
+  padding: 10px;
+}
+/* go up */
+.go-up {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+/* end go up */
+
+/* calculatior start */
+.calculatior-section {
+  background-color: #ff856e;
+  padding: 50px 0;
+}
+.calculatior {
+  margin: auto;
+  border-radius: 20px;
+  max-width: 300px;
+  box-shadow: 10px 5px 50px rgb(66, 66, 66);
+}
+.but {
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 15px;
+  margin: 1px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.but:hover {
+  background-color: #dcdcdc;
+}
+.seven {
+  border-radius: 0 0 0px 20px;
+}
+.nine {
+  border-radius: 0 0 20px 0px;
+}
+.show {
+  padding: 60px 10px 5px 10px;
+  background-color: #333a4d;
+  color: white;
+  direction: rtl;
+  font-size: 30px;
+  border-radius: 20px 20px 0% 0%;
+}
+.under-btn {
+  background-color: #b8b8b8;
+  border-radius: 0 0 20px 20px;
+}
+/* calculatior end */
+.My-table {
+  border: 1px solid;
+}
+.My-table td {
+  padding: 5px 20px;
+}
+.My-table tr {
+  border-radius: 4px;
+}
+/* poup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+/* deopdown search */
+ul {
+  list-style: none;
+  padding: 0px;
+  margin-top: 10px;
+  direction: rtl;
+}
+.content li {
+  height: 40px;
+  padding: 10px;
+}
+.content li:hover {
+  background-color: #ededed;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.background {
+  background-color: #9ab4fa;
+  justify-content: center;
+  padding: 30px;
+  margin: auto;
+  border-radius: 4px;
+  display: flex;
+}
+.wraper {
+  width: 300px;
+  padding: 10px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 4px;
+}
+.search {
+  border-radius: 4px;
+}
+.center {
+  max-height: 150px;
+  width: 290px;
+  z-index: 10000;
+  overflow: auto;
+  /* position: absolute; */
+  border-radius: 4px;
+}
+.icon2:hover {
+  cursor: pointer;
+}
+
+.search input {
+  border-radius: 4px;
+  outline: none;
+  padding: 5px;
+  padding-left: 34px;
+  border: 1px solid #b8b8b8;
+  margin-right: 5px;
+  width: 237px;
+  direction: rtl;
+}
+.center {
+  margin: auto;
+  display: none;
+}
+.active .center {
+  display: block;
+}
+.icon1 {
+  position: absolute;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+.icon1:hover {
+  cursor: pointer;
+  background-color: #f3f3f3;
+}
+.icon2 {
+  transition: 0.3s linear;
+}
+.active .icon2 {
+  transform: rotate(-180deg);
+}
+.center::-webkit-scrollbar {
+  width: 10px;
+}
+.center::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 25px;
+}
+.center::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 25px;
+}
+.center::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+}
